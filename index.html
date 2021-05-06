@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ATLAS ITB</title>
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+<body>
+<section id="banner">
+	<img src="images/logo_atlas(2).png" class="logo">
+	<div class="banner-text">
+		<h1>Atletik Ganesha ITB</h1>
+		<p>Unit atletik untuk mahasiswa ITB</p>
+		<div class="banner-btn">
+			<a href="#"><span></span>About Us</a>
+		</div>
+	</div>
+</section>
+
+<div id="sideNav">
+	<nav>
+	<ul>
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">ABOUT US</a></li>
+		<li><a href="#">EVENTS</a></li>
+		<li><a href="#">NEWS</a></li>
+		<li><a href="#">GALLERY</a></li>
+	</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+	<img src="images/hamburger_icon.png" id="menu">
+</div>
+
+<!--Features-->
+
+<section id="about-us">
+<div class="title-text">
+	<h1>ABOUT US</h1>
+</div>
+<div class="about-us-box">
+	<div class="about-us-img">
+		<img src="images/logo_atlas(2).png">
+	</div>
+	<div class="about-us-desc">
+		<div class="about-us-text">
+			<p>Atletik Ganesha adalah suatu unit yang blablablalbalbalblablaladklsadlak...</p>
+		</div>
+	</div>
+</div>
+</section>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-350px") {
+		sideNav.style.right = "0";
+		menu.src = "images/close_icon.png"
+	}
+	else {
+		sideNav.style.right = "-350px";
+		menu.src = "images/hamburger_icon.png"
+	}
+}
+
+</script>
+</body>
+</html>
