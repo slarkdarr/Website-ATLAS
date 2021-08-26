@@ -1,4 +1,7 @@
-import './App.css';
+import Events from './pages/Events'
+import News from './pages/News'
+import Shop from './pages/Shop'
+import './styles/App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -50,16 +53,4 @@ function Home() {
         <h2>Home</h2>
   </div>
   );
-}
-
-function Shop() {
-  return <h2>Shop</h2>;
-}
-
-function News() {
-  return <h2>News</h2>;
-}
-
-function Events() {
-  return <h2>Events</h2>;
 }

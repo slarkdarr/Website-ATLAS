@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## NOTES
+Folder styles untuk styling semua .js file
+Folder component untuk ngebuat component-component yang bakal dipake dalam page
+Folder pages untuk ngebuat page yang bakal ditampilin di website
 
 ## Available Scripts
 
