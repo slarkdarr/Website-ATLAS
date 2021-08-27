@@ -1,3 +1,10 @@
+import Header from '../components/header'
+
 export default function Events() {
-    return <h2>Events</h2>;
+    return (
+        <div>
+            <Header/>
+            <h2>Events</h2>
+        </div>
+    );
 }

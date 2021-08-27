@@ -1,4 +1,11 @@
+import Header from '../components/header'
+
 export default function News() {
-    return <h2>News</h2>;
+    return (
+        <div>
+            <Header/>
+            <h2>News</h2>
+        </div>
+    );
 }
   
