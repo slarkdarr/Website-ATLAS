@@ -1,4 +1,5 @@
 import Header from '../components/header';
+import Footer from "../components/footer";
 import Article from './Article';
 import { articles } from '../assets/articles';
 import { Link, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -28,6 +29,7 @@ export default function News() {
                     {listOfArticle()}
                 </Route>
             </Switch>
+            <Footer/>
         </Router>
     );
 }

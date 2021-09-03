@@ -15,7 +15,7 @@ export default function Header (props){
     return (
         <div className="header">
             <div className="nav-home">
-                <Link className="link" to="/home">Home</Link>
+                <Link className="link" to="/">Home</Link>
             </div>
             <nav className="nav-other" >
                 <Link className="link nav-shop" 
