@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import thumbnailPicture from "../assets/images/example-photo-article.jpg"
+import thumbnailPicture from "../assets/images/article-images/example-photo-article.jpg"
 import "../styles/Home.css"
 import Footer from "../components/footer"
 

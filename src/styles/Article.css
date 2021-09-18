@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 3378px;
     background-color: whitesmoke;
 }
 
@@ -29,4 +28,57 @@
 
 .main-container > img{
     width: 100%;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+}
+
+.author > span{
+    position: relative;
+    left: 9em;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-content > div{
+    width: 65%;
+}
+
+.recent-post{
+    height: 600px;
+    width: 100%;
+}
+
+.recent-post > .baca-juga{
+    font-size: 25px;
+    margin: 0px 0px 1em 6em;
+    padding-top: 40px;
+}
+
+.next-post-wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    padding-left: 7.5em;
+    margin-bottom: 20px;
+}
+
+.next-post-wrapper > img{
+    border-radius: 15px;
+}
+
+.next-post-wrapper > .text{
+    padding-top: 5px;
+    padding-left: 25px;
+    width: 250px;
+    font-size: smaller;
 }

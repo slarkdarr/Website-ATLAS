@@ -22,7 +22,7 @@ export default function Footer () {
 
             <div className="connect">
                 <p className="connect-us">Connect With Us</p>
-                <a href="https://www.instagram.com/atletikganesha/" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.instagram.com/atletikganesha/" class="fa fa-instagram" target="_blank" rel="noreferrer"></a>
             </div>
         </div>
     )
